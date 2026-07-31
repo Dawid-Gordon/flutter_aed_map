@@ -7,8 +7,6 @@
 .buildlog/
 .history
 
-
-
 # Flutter repo-specific
 /bin/cache/
 /bin/internal/bootstrap.bat
@@ -96,7 +94,6 @@ unlinked_spec.ds
 
 # Windows
 **/windows/flutter/generated_plugin_registrant.cc
-**/windows/flutter/generated_plugin_registrant.h
 **/windows/flutter/generated_plugins.cmake
 
 # Linux
@@ -117,3 +114,14 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# Environment variables
+.env
+
+# IDE related
+.idea/
+*.iml
+.vscode/
+
+# AI Artifacts
+.artifacts/
