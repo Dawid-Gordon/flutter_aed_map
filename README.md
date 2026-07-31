@@ -1,10 +1,16 @@
 # AED Map
 
-A Flutter application designed to visualize and navigate to Automated External Defibrillators (AEDs) across Poland.
+A Flutter application designed to visualize the network of Automated External Defibrillators (AEDs) across Poland.
 
 ## Goal
 
 The primary objective of this application is to provide an interactive, reliable, and high-performance map showing AED locations. It helps users find the nearest life-saving equipment quickly, supporting both online and offline use-cases.
+
+## Key Features
+
+- **Interactive Map**: Visualize the network of AEDs with clustering and custom markers.
+- **Location Tracking**: Real-time device location to find the nearest AED.
+- **Offline Support**: Access AED data without an internet connection using local persistence.
 
 ## Architecture
 
@@ -40,3 +46,7 @@ The project follows the **MVVM (Model-View-ViewModel)** architectural pattern to
 2.  Run `flutter pub get`.
 3.  Ensure your Android/iOS environment is configured with the Mapbox SDK requirements.
 4.  Run the app using `flutter run`.
+
+## Contributing
+
+Please see [CONTRIBUTING.md](file:///C:/Workspace/Playground/CONTRIBUTING.md) for development guidelines and AI (Gemini) workflow rules.
